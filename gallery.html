@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang = "en">
+    
+    <head>
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel = "stylesheet" href = "designsheet.css">
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        
+        <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+        
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        
+        <title>Gallery</title>
+        <link rel="icon" href="mjlogo.png">
+        
+        <link href='https://fonts.googleapis.com/css?family=Archivo Black' rel='stylesheet'>
+        
+        <link href="https://fonts.googleapis.com/css?family=Racing+Sans+One" rel="stylesheet">
+        
+        <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+        
+        <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    </head>
+
+    <body> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+        <nav class="navbar navbar-expand-md navbar-dark navbar-fixed-top color">
+            <!-- Brand -->
+            <a class="navbar-brand band-name" href="design-brief.html">
+                Malibu June
+            </a>
+
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar links -->
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link txt" href="design-brief.html">Home</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link txt" href="malibu-home.html">Biography</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link txt active" href="gallery.html">Gallery</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link txt" href="shop.html">Shop</a>
+                        </li> 
+                    
+                        <li class="nav-item">
+                            <a class="nav-link txt" href="tour.html">Tour</a>
+                        </li> 
+                        
+                        <li class="nav-item">
+                            <a class="nav-link txt" href="design-about.html">About</a>
+                        </li> 
+                    </ul>
+                </div> 
+            
+         </nav>
+        
+        <div class = "row justify-content-center">
+            <div class = "col-sm-11 top-img">
+                <div class = "divider"></div>
+                <h1 class = "band-name-big">Gallery</h1>
+            </div>
+        </div>
+        
+        <div class = "row justify-content-center divide">
+        </div>
+        
+        <!-----------AUDIO START--------->
+        <div class = "row justify-content-center">
+            <audio controls>
+                <source src = "sample.wav" type = "audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <!-----------AUDIO END--------->
+        
+        
+        
+        <div class = "row justify-content-center divide">
+        </div>
+        
+        
+        
+        <!------GALLERY START------------>
+        <div class = "row justify-content-center">
+            <div class = "col-sm-10 content-holder">
+                <div class = "row justify-content-center roww">
+                            <div class = "coll">
+                                <img src = "https://images.pexels.com/photos/1238966/pexels-photo-1238966.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" onclick = "myFunction(this);">
+                            </div>
+
+                            <div class = "coll">
+                                <img src = "https://images.pexels.com/photos/210794/pexels-photo-210794.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" onclick = "myFunction(this);">
+                            </div>
+
+                            <div class = "coll">
+                                <img src = "https://images.pexels.com/photos/3096/music-musician-piano-player-audio.jpg?auto=compress&cs=tinysrgb&dpr=2&w=500" onclick = "myFunction(this);">
+                            </div>
+
+                            <div class = "coll">
+                                <img src = "https://images.pexels.com/photos/1047940/pexels-photo-1047940.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" onclick = "myFunction(this);">
+                            </div>
+                </div>
+
+                <div class = "row justify-content-center">
+                    <div class = "contain">
+                        <img id = "expandedImg" style = "height: 350px; width: auto; margin: 0">
+
+                        <div id = "imgtext"></div>
+                    </div>
+                </div>
+             </div>
+         </div>
+        <!-----------GALLERY END---------->
+        
+        <div class = "row justify-content-center divide">
+        </div>
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+    
+</html>
+
+<script>
+    function myFunction(imgs){
+        var expandImg = document.getElementById("expandedImg");
+        var imgText = document.getElementById("imgtext");
+        
+        expandImg.src = imgs.src;
+        imgText.innerHTML = imgs.alt;
+        
+        expandImg.parentElement.style.display = "block";
+    }
+</script>

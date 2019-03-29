@@ -1,0 +1,242 @@
+.band-name {
+    font-family: 'Racing Sans One', cursive;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 10%;
+    padding-left: 2px;
+    padding-right: 2px;
+    
+    border: 2px solid white;
+}
+
+.divider {
+    height: 45px;
+}
+
+.band-name-big {
+    font-family: 'Racing Sans One', cursive;
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    
+    border: 2px solid white;
+}
+
+a:active {
+    color: darkgray !important;
+}
+
+a:hover {
+    color: darkgray !important;
+    text-decoration: none !important;
+    transition-duration: 0.5s;
+}
+
+.navbar {
+    height: 70%;
+}
+
+.color {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+body {
+    background-image: url("https://images.unsplash.com/photo-1506271955088-88204c99e99a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2700&q=80");
+    width: 100%;
+    height: auto;
+    
+    overflow-x: hidden;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pddingg {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    overflow: hidden;
+}
+
+.contain {
+    position: relative;
+    display: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin-top: 8px;
+    vertical-align: middle;
+    
+    border: 2px solid white;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pdding{
+    padding-left: 45px;
+    padding-right: 5px;
+    
+    height: 1000px;
+    
+    background-color: aqua;
+}
+
+.pading {
+    padding-left: 5px;
+    padding-right: 45px;
+    
+    background-color: azure;
+}
+
+.txt {
+    font-family: "Staatliches";
+    text-align: center;
+    color: white; 
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 20px !important;
+}
+
+.title {
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding-top: 8px;
+}
+
+.text {
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-top: 8px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+@media screen and (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+button {
+    background: none;
+    border: 2px solid white; 
+    
+    width: 200px;
+    height: 60px;
+}
+
+.but {
+    font-family: "Staatliches";
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.divide {
+    height: 50px;
+}
+
+.content-holder {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    
+    margin-left: 5px;
+    margin-right: 5px;
+    
+    border: 2px solid white;
+}
+
+.coll {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+.coll img {
+    opacity: 0.8;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.coll img:hover {
+    opacity: 1;
+    border: 2px solid white;
+}
+
+.roww:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.band-name-smaller {
+    font-family: 'Racing Sans One', cursive;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    
+    border: 2px solid white;
+}
+
+.contain {
+    margin: auto;
+    display: block;
+    padding-top: 10px;
+}
+
+#imgtext {
+    bottom: 15px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+}
+
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ff1a1a;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #e60000;
+}

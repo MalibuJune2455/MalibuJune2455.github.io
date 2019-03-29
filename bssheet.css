@@ -1,0 +1,287 @@
+.txt {
+    font-family: "Staatliches";
+    text-align: center;
+    color: white; 
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 20px !important;
+}
+
+.cred {
+    width: 200px;
+    height: 200px;
+}
+
+.abt {
+    font-family: "Staatliches";
+    text-align: center;
+    color: white;
+    
+    background-color: #57467B;
+    
+    height: 400px;
+    
+    padding-top: 10%;
+}
+
+h4 {
+    font-family: "Staatliches";
+    text-align: center;
+    color: white;
+}
+
+.wrapper {
+    height: 100vh;
+    background-color: dimgray;
+}
+
+.parallax { 
+  /* The image used */
+  background-image: url("http://contractconstruction.net/wp-content/uploads/2018/02/DFHS_Exterior-001.jpg");
+
+  /* Full height */
+  height: 1000px; 
+
+    overflow: hidden;
+    
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-abt { 
+  /* The image used */
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-small { 
+  /* The image used */
+  background-image: url("http://contractconstruction.net/wp-content/uploads/2018/02/DFHS_Exterior-001.jpg");
+
+  /* Full height */
+  height: 100px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cte-parallax { 
+  /* The image used */
+  background-image: url("https://lh3.googleusercontent.com/V4epBT4ChrUGzMFTFFeeyv9kt_5o-5R0vSptGGLVJk4PLtN0f9eJlHuzF4YG2LYhgu01pktC0sKtt1X4nqSLMmdCZ4YY7zPrvzfCMTe_fIdOljYft7Okbo8XeJww3UhcChJLr1NK");
+
+  /* Full height */
+  height: 700px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tsa-parallax { 
+  /* The image used */
+  background-image: url("https://lh3.googleusercontent.com/12bl9_vQVOnShQyUoDQ74r4s5Q_o5HFR4wq4LU-28iKPkawgCXRfE2lmFhYxc8F2DzkE85S1Jvf3i6aBH8Z9ptXJU4tqmShQ5iJydIXAkms4_YYrxdvW8PNAKqlyCYfhpNvOaKQG");
+
+  /* Full height */
+  height: 700px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.copr-parallax { 
+  /* The image used */
+  background-image: url("https://lh5.googleusercontent.com/5R4xNd8JPlRyUt9e8DuIkmtYuwkzYikyZ7ejCb1Atq70N57a78BIc1fH2dItUtf8RgwsujkOCxb5fFX3TFf-X8CIHUPTgwxRxRCwCk5xzaWmVTdpDZ3Gzbd0kR0vS6blsqg9O0Ky");
+    
+  /* Full height */
+  height: 100px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.robot-parallax { 
+  /* The image used */
+  background-image: url("https://lh5.googleusercontent.com/_i8tO0pGN15INwP7Z3ZiuuHTkDNp3XQvAOqTpm1wHWU9-2CN2EoFdRaIlYZ6sq-_fyqlc4D4OIMXVV0iIOmGbrKpdadKTWFBW55LaWbttPJvYSBGAy59OHSCOQnLZG4L9N3R8SZT");
+    
+  /* Full height */
+  height: 100px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cte-div {
+    background-color: #57467B;
+}
+
+body, html { 
+    height: 100%;
+    overflow-x: hidden;
+}
+
+hr {
+    color: white;
+}
+
+.large-title {
+    font-family: "Staatliches";
+    text-align: center;
+    color: white;
+    padding-top: 18%;
+    font-size: 60px;
+    padding-left: 5px;
+    padding-right: 5px;
+    overflow: hidden;
+}
+
+.element-title {
+    font-family: "Staatliches";
+    text-align: center;
+    color: white;
+    font-size: 44px;
+    padding-top: 8px;
+}
+
+.subtitle {
+    font-family: "Staatliches";
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-top: 8px;
+}
+
+.text {
+    font-size: 20px;
+    padding-bottom: 5px;
+    color: white;
+    text-align: center;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.crd {
+    width: 200px;
+    height: 250px;
+}
+
+.pdding {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    overflow: hidden;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.tsa-logo {
+    width: 300px;
+    height: 200px;
+    padding-top: 10px;
+}
+
+.large-officer {
+    overflow: hidden;
+}
+
+.large-teacher {
+    overflow: hidden;
+}
+
+.tsa-divider-parallax {
+     /* The image used */
+  background-image: url("https://lh3.googleusercontent.com/12bl9_vQVOnShQyUoDQ74r4s5Q_o5HFR4wq4LU-28iKPkawgCXRfE2lmFhYxc8F2DzkE85S1Jvf3i6aBH8Z9ptXJU4tqmShQ5iJydIXAkms4_YYrxdvW8PNAKqlyCYfhpNvOaKQG");
+    
+  /* Full height */
+  height: 35px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cropped-square {
+    height: 250px;
+    width: 250px;
+    
+    overflow: hidden;
+    
+    margin: 0;
+    border: 3px solid white;
+}
+
+.center {
+    margin: auto;
+    display: block;
+}
+
+.right {
+    margin: auto;
+    display: block;
+    float: right;
+}
+
+.left {
+    margin: auto;
+    display: block;
+    float: left;
+}
+
+.divide {
+    height: 20vh;
+}
+
+.service-parallax {
+     /* The image used */
+  background-image: url("https://lh6.googleusercontent.com/cZtd-0d9tzZlFfhWeXCuDDQBkEW06iIE2tamerwX5tv_dOn5qYA8x6neFFmvA2QufA4gL83m7PkjAAwZwIEvfcpZ-OkijaM1D7jZTXZUIFzyGvaWYwlphWT-Vr6_ODVTgH8t_wS6");
+    
+  /* Full height */
+  height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.service-divider-parallax {
+     /* The image used */
+  background-image: url("https://lh6.googleusercontent.com/cZtd-0d9tzZlFfhWeXCuDDQBkEW06iIE2tamerwX5tv_dOn5qYA8x6neFFmvA2QufA4gL83m7PkjAAwZwIEvfcpZ-OkijaM1D7jZTXZUIFzyGvaWYwlphWT-Vr6_ODVTgH8t_wS6");
+    
+  /* Full height */
+  height: 35px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
